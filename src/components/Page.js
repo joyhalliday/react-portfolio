@@ -6,24 +6,24 @@ import Portfolio from "./Pages/Portfolio";
 import Resume from "./Pages/Resume";
 
 function Page({ currentPage }) {
-  function renderPage() {
+function renderPage() {
     if (currentPage.name === "About") {
-      return <About />;
+    return <About />;
     } else if (currentPage.name === "Portfolio") {
-      return <Portfolio />;
+    return <Portfolio />;
     } else if (currentPage.name === "Contact") {
-      return <Contact />;
+    return <Contact />;
     } else if (currentPage.name === "Resume") {
-      return <Resume />;
+    return <Resume />;
     } else {
-      return <About />;
+    return <About />;
     }
-  }
-  return (
+}
+return (
     <div>
-      <PageContent>{renderPage()}</PageContent>
+    <PageContent>{renderPage()}</PageContent>
     </div>
-  );
+);
 }
 
 export default Page;
