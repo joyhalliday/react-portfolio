@@ -8,7 +8,7 @@ export default function About() {
           I'm Joy, a student of a coding bootcamp through the University of Arizona.
         </p>
         <p className="content">
-         I have been excited to learn new skills in programming and expand my horizons!
+        I have been excited to learn new skills in programming and expand my horizons!
         </p>
       </div>
     );

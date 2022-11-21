@@ -8,7 +8,7 @@ const [projects] = useState([
     desc: "A group project done through the coding bootcamp. This application uses an API to allow the user to search through musical artists and displays information about them and their work.",
     deployed: "https://unheardof77.github.io/Artist-Information-Finder/",
     repo: "https://github.com/unheardof77/Artist-Information-Finder",
-    image: "src/assets/music index.jpg",
+    image: "src/assets/music-index.jpg",
     },
     {
     name: "GameSphere",
@@ -29,7 +29,7 @@ const [projects] = useState([
     desc: "A solo project done through the coding bootcamp. This is a backend only application, the video shows how it can be tested in Insomnia to create a working backend for a social network.",
     deployed: "https://drive.google.com/file/d/1byPtslrzJy4z03KpWWqstsOmft04aXl4/view",
     repo: "https://github.com/joyhalliday/social-network-api",
-    image: "src/assets/Social network api.jpg",
+    image: "src/assets/Social-network-api.jpg",
     },
     {
     name: "Project 5",
