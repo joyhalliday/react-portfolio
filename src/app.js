@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Header from "./components/NavTabs";
+import Header from "./components/Header";
 import Nav from "./components/Nav";
 import Page from "./components/Page";
 

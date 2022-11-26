@@ -1,17 +1,17 @@
 import React, { useEffect } from "react";
-import Page from "./Page";
 
 function Nav(props) {
 const { pages = [], setCurrentPage, currentPage } = props;
+console.log(currentPage)
 return (
     <nav>
     <ul>
-        {pages.map((Page) => (
+        {pages.map((page) => (
         <li
-            className={`mx-5 ${currentPage.name === Page.name && "navActive"}`}
-            key={Page.name}
-        >
-            <span onClick={() => setCurrentPage(Page)}></span>
+            className={`mx-5 ${currentPage.name === page.name && "navActive"}`}
+            key={page.name}
+        > 
+            <span onClick={() => setCurrentPage(page)}>{page.name}</span>
         </li>
         ))}
     </ul>

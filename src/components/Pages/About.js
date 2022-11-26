@@ -3,7 +3,7 @@ export default function About() {
         <div>
         <p className="content is-medium">Full Stack Developer</p>
         <hr />
-        <img className="my-pic" src='src/assets/icon.jpg' alt="Joy Halliday photo"/>
+        <img className="my-pic" src={require('../../assets/icon.jpg')} alt="Joy Halliday photo"/>
         <p className="content is-italic mt-4">
           I'm Joy, a student of a coding bootcamp through the University of Arizona.
         </p>

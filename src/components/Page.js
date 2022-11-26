@@ -5,25 +5,24 @@ import Contact from "./Pages/Contact";
 import Portfolio from "./Pages/Portfolio";
 import Resume from "./Pages/Resume";
 
-function Page({ currentPage, setCurrentPage }) {
+function Page({ currentPage }) {
 function renderPage() {
-    if (currentPage === "About") {
+    if (currentPage.name === "About") {
     return <About />;
-    } else if (currentPage === "Portfolio") {
+    } else if (currentPage.name === "Portfolio") {
     return <Portfolio />;
-    } else if (currentPage === "Contact") {
+    } else if (currentPage.name === "Contact") {
     return <Contact />;
-    } else if (currentPage === "Resume") {
+    } else if (currentPage.name === "Resume") {
     return <Resume />;
     } else {
     return <About />;
     }
 };
-const handlePageChange = (page) => setCurrentPage(page);
 return (
     <div>
-    <PageContent currentPage={currentPage} handlePageChange={handlePageChange} />
-    {renderPage()}
+    <PageContent>{renderPage()}</PageContent>
+    
     </div>
 );
 }

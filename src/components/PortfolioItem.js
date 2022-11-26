@@ -17,7 +17,7 @@ function PortfolioItem({project}) {
     } = project
     return (
       <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src = {image} /> 
+        <img variant="top" src = {require(`../assets/${image}`)} /> 
         <Card.Body>
           <Card.Title>{name}</Card.Title>
           <Card.Text>
