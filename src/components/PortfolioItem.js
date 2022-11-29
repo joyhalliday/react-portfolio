@@ -2,33 +2,31 @@ import React from "react";
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
-// function PortfolioItem({project}) {
-//     const {
-//         name, desc, depolyed, repo, image 
-//     } = project
-//     return(<div>
-//         <img src = {image}></img>
-//     </div>)
-// }
+const styles = {
+    PortfolioItemStyle: {
+        justifyContent: 'flex-end',
+    }
+};
+
 
 function PortfolioItem({project}) {
     const {
-        name, desc, depolyed, repo, image 
+        name, desc, deployed, repo, image 
     } = project
     return (
-      <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '25rem' }}>
         <img variant="top" src = {require(`../assets/${image}`)} /> 
         <Card.Body>
-          <Card.Title>{name}</Card.Title>
-          <Card.Text>
+        <Card.Title>{name}</Card.Title>
+        <Card.Text>
             {desc}
-          </Card.Text>
-          <Button variant="primary">Repo</Button>
-          <Button variant="primary">Deployed</Button>
+        </Card.Text>
+        <a href={repo}><Button variant="primary">Repo</Button></a>
+        <a href={deployed}><Button variant="primary">Deployed</Button></a>
         </Card.Body>
-      </Card>
+    </Card>
     );
-  }
+}
 
 
 export default PortfolioItem

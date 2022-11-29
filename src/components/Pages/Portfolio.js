@@ -49,7 +49,7 @@ const [projects] = useState([
 return (
     <div>
     <h1>Portfolio Page</h1>
-    <div>
+    <div className="d-flex justify-content-around">
         {projects.map((project, index) => (
         <PortfolioItem project={project} key={"project" + index} />
         ))}
