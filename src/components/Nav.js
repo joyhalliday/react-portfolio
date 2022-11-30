@@ -5,7 +5,7 @@ const { pages = [], setCurrentPage, currentPage } = props;
 console.log(currentPage)
 return (
     <nav>
-    <ul>
+    <ul className="d-flex justify-content-end list-style-none">
         {pages.map((page) => (
         <li
             className={`mx-5 ${currentPage.name === page.name && "navActive"}`}

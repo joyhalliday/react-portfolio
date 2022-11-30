@@ -1,9 +1,8 @@
 export default function About() {
     return (
-        <div>
-        <p className="content is-medium">Full Stack Developer</p>
+        <div className="about">
         <hr />
-        <img className="my-pic" src={require('../../assets/icon.jpg')} alt="Joy Halliday photo"/>
+        <img src={require('../../assets/icon.jpg')} alt="Joy Halliday photo" className="rounded-circle"/>
         <p className="content is-italic mt-4">
           I'm Joy, a student of a coding bootcamp through the University of Arizona.
         </p>
