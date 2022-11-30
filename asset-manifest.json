@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.624bc351.css",
-    "main.js": "/react-portfolio/static/js/main.8f2e1df6.js",
+    "main.css": "/react-portfolio/static/css/main.173edd03.css",
+    "main.js": "/react-portfolio/static/js/main.80fddb89.js",
     "static/media/music-index.jpg": "/react-portfolio/static/media/music-index.81f8335fc25f13a92314.jpg",
     "static/media/scheduler.jpg": "/react-portfolio/static/media/scheduler.0abb5512116b614a21ff.jpg",
     "static/media/gamesphere.jpg": "/react-portfolio/static/media/gamesphere.9d7e156048836aaba158.jpg",
     "static/media/icon.jpg": "/react-portfolio/static/media/icon.4b1b62cf5f84136e659d.jpg",
     "static/media/Social-network-api.jpg": "/react-portfolio/static/media/Social-network-api.821f8caa7d4ca058716f.jpg",
+    "static/media/Resume.pdf": "/react-portfolio/static/media/Resume.ee9916c5e7e3d6a3d94c.pdf",
     "index.html": "/react-portfolio/index.html",
-    "main.624bc351.css.map": "/react-portfolio/static/css/main.624bc351.css.map",
-    "main.8f2e1df6.js.map": "/react-portfolio/static/js/main.8f2e1df6.js.map"
+    "main.173edd03.css.map": "/react-portfolio/static/css/main.173edd03.css.map",
+    "main.80fddb89.js.map": "/react-portfolio/static/js/main.80fddb89.js.map"
   },
   "entrypoints": [
-    "static/css/main.624bc351.css",
-    "static/js/main.8f2e1df6.js"
+    "static/css/main.173edd03.css",
+    "static/js/main.80fddb89.js"
   ]
 }
